@@ -1,8 +1,7 @@
 ---
-attachments: [Clipboard_2020-12-30-20-14-49.png]
 title: Metodologías Tradicionales
 created: '2020-12-30T13:41:03.144Z'
-modified: '2020-12-30T19:22:09.146Z'
+modified: '2020-12-30T21:17:34.342Z'
 ---
 
 # Metodologías Tradicionales

@@ -53,7 +53,7 @@ Todo proyecto está restringido por:
 - **Coste**: Presupuesto disponible en el proyecto para realizar las actividades en el tiempo establecido.
 - Estos tres elementos determinan la **Calidad**.
 
-![Triangulo](../attachments/Triangle.png)
+![Triangulo](../attachments/Triangle.PNG)
 
 
 >- **Maximizar simultáneamente alcance, tiempo, coste y calidad no es posible.**

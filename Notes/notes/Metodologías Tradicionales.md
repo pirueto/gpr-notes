@@ -482,5 +482,146 @@ Es una técnica de **habilidades interpersonales y de equipo**.
 ![](../attachments/Clipboard_2021-01-04-14-27-57.png)
 
 
+
 ## Tema 3
+
+### Gestión del Alcance
+
+***
+
+#### Definición y Planificación
+
+El **alcance del proyecto** es **todo el trabajo que hay que realizar para cumplir su objetivo y completarlo con éxito.**
+
+El **área de conocimiento Gestión del Alcance** incluye los procesos necesarios para garantizar que el proyecto **incluya única y completamente el trabajo requerido para completar el proyecto con éxito.
+
+![](../attachments/Clipboard_2021-01-05-11-40-45.png)
+
+**Ciclos de vida predictivos**: El alcance se define al **comienzo del proyecto**, definiendo una **linea base del alcance** que se valida **con cada entregable o revisión de fase**.
+
+**Ciclos de vida ágiles/adaptativos**: El alcance se define a través de **múltiples iteraciones**, se utilizan registros de trabajos pendientes (requisitos, US, etc.) para ver el estado actual y se valida **en cada iteración**.
+
+![](../attachments/Clipboard_2021-01-05-11-45-42.png)
+
+**Planificar la Gestión del Alcance:** Crear un plan de gestión.
+
+#### Recopilar Requisitos
+
+Proceso encargado de **determinar, documentar y gestionar las necesidades y requisitos de los interesados**.
+
+La **ingeniería de Requisitos** es el área encargada de **identificar, especificar, validar, documentar y gestionar requisitos de software**.
+
+**Requisito de software**: Condición o capacidad que debe alcanzar o poseer un **sistema o un componente de un sistema**, para **satisfacer un contrato, estándar, especificación u otro documento formal**, o para que un **usuario resuelva un problema o alcance un objetivo**.
+
+Los requisitos deben ser: Necesarios, completos, no ambiguos, únicos, factibles, consistenmtes, trazables, verificables y libres de restricciones de implementación.
+
+**Funcionales:** Especifican una función que un sistema o componente debe ser capaz de llevar a cabo.
+
+**No funcionales**: Limitaciones sobre funciones o servicios que ofrece el sistema o características de calidad.
+
+**Elicitación de requisitos**: Entrevistas, reuniones, casos de uso UML, prototipos, etnografía (observación en el entorno de trabajo), estudio de documentación del entorno profesional.
+
+**Especificación de requisitos**: Proceso de escribir los requisitos en un **Documento Oficial del Proyecto (ERS)**.
+
+![](../attachments/Clipboard_2021-01-05-11-57-09.png)
+
+#### Definir el alcance
+
+**Definir el Alcance** es el proceso de desarrollar una **descripción detallada del proyecto y del producto o resultado final (enunciado del alcance del proyecto)**.
+
+Hace uso de la documentación generada por el anterior proceso **Recopilar requisitos**.
+
+Se describen y clarifican los **límites del proyecto**.
+
+El **enunciado del alcance del proyecto** debe incluir:
+
+- Descripción detallada del **proyecto**
+- Descripción del **resultado final**
+- **Límites** del proyecto
+- **Supuestos y restricciones**
+- **Riesgos**
+- Descripción de los principales **entregables del proyecto**
+- **Criterios de aceptación** de los mismos
+
+#### Crear la EDT/WBS
+
+**Crear la EDT/WBS** es el proceso de **dividir el alcance del proyecto** en componentes más pequeños y manejables.
+
+- **EDT**: Estructura de Desglose del Trabajo
+
+- **WBS**: Work Breakdown Structure
+
+**La EDT/WBS** es una **descomposición jerárquica** de **todo el trabajo a realizar por el equipo del proyecto** para cumplir con el objetivo del proyectom crear los entregables requeridos y completar el proyecto con éxito.
+- Incluye el **trabajo de dirección del proyecto** y el de **soporte**.
+- También puede incluir **trabajo realizado por recursos externos** a la organización.
+
+La EDT/WBS **define y organiza el alcance del proyecto** y representa el trabajo especificado en el **enunciado del alcance del proyecto**.
+
+Cada **nivel descendiente** representa una **definición cada vez más detallada** del trabajo del proyecto.
+
+Los componentes que forman el nivel más bajo de cada rama se llaman **paquetes de trabajo**.
+
+Un **paquete de trabajo** es un **conjunto de actividades relacionadas** que pueden ser realizadas por recursos similares y de las que se puede estimar su **esfuerzo, duración y coste**.
+
+Un paquete se puede utilizar para **agrupar actividades** donde el trabajo es programado, estimado, seguido y controlado.
+
+Cada componente puede **requerir diferentes niveles de descomposición** hasta llegar al nivel de los paquetes de trabajo.
+
+**Regla del 100%:** El trabajo representado por un componente es igual a la suma de todos los paquetes de trabajo inferiores.
+
+**Cada paquete no puede tener más de un componente superior**.
+
+El EDT/WBS se puede representar de varias formas, siendo la más habitual la **forma de árbol**.
+
+Cada componente debe tener un **identificador único**.
+
+En el **primer nivel de descomposición** se representa el **proyecto** en su totalidad o el **resultado final**.
+
+Se pueden utilizar **dos enfoques diferentes**:
+
+1. Utilizar los **principales entregables** del proyecto como **segundo nivel** de descomposición
+2. Utilizar las **fases del ciclo de vida del proyecto** como **segundo nivel** de descomposicióm, con los entregables insertados en el **tercer nivel**.
+
+![](../attachments/Clipboard_2021-01-05-12-33-16.png)
+
+![](../attachments/Clipboard_2021-01-05-12-33-32.png)
+
+También existen guías y plantillas específicas para elaborar EDT/WBS en áreas específicas (como la **ingeniería del software**).
+
+Se puede acompañar de un documento (**diccionario de la EDT/WBS**) que proporcione información detallada sobre cada uno de sus componentes.
+
+Constituye la **base para la planificación temporal, la gestión de recursos y la estimación de costes**.
+
+Sirve como **herramienta comunicativa**.
+
+**No representa cronología** ni dependencias entre actividades del proyecto.
+
+### Estructura de Desglose del Producto
+
+***
+
+La EDP/PBS  es una estructura jerárquica de todos los **entregables** que se deben producir para generar el **resultado final**.
+
+Incluye **todos los productos** que se desarrollarán a lo largo del proyecto.
+
+Se representa y crea igual que la EDT/WBS con las siguientes peculiaridades:
+
+- En el **primer nivel de descomposición** se representa siempre el resultado final del proyecto (generalmente un **producto**)
+- Todos los componentes deben ser **entregables del proyecto o conjuntos de los mismos** y la estructura se debe **organizar por entregables**
+- No se usa el término paquetes de trabajo
+
+![](../attachments/Clipboard_2021-01-05-13-04-45.png)
+
+![](../attachments/Clipboard_2021-01-05-13-05-00.png)
+
+|EDT/WBS|EDP/PBS|
+|---|---|
+|Incluye **paquetes de trabajo**|Incluye **entregables**|
+|Divide el **alcance del proyecto**|Divide el **resultado final**|
+|Permite comunicar el **trabajo que hay que ejecutar**|Permite comunicar **los resultados que el proyecto va a producir**|
+|Se define **después**|Se define **antes** (y puede ayudar a crear el EDT/WBS)|
+
+La EDP/PBS divide el **resultado final** del proyecto mientras que la EDT/WBS divide todo el **alcance del proyecto**.
+
+
 

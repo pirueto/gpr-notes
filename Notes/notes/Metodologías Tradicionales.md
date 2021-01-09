@@ -493,7 +493,7 @@ Es una técnica de **habilidades interpersonales y de equipo**.
 
 El **alcance del proyecto** es **todo el trabajo que hay que realizar para cumplir su objetivo y completarlo con éxito.**
 
-El **área de conocimiento Gestión del Alcance** incluye los procesos necesarios para garantizar que el proyecto **incluya única y completamente el trabajo requerido para completar el proyecto con éxito.
+El **área de conocimiento Gestión del Alcance** incluye los procesos necesarios para garantizar que el proyecto **incluya única y completamente el trabajo requerido para completar el proyecto con éxito**.
 
 ![](../attachments/Clipboard_2021-01-05-11-40-45.png)
 
@@ -623,5 +623,276 @@ Se representa y crea igual que la EDT/WBS con las siguientes peculiaridades:
 
 La EDP/PBS divide el **resultado final** del proyecto mientras que la EDT/WBS divide todo el **alcance del proyecto**.
 
+## Tema 4
+
+### Planificación Temporal de Proyectos
+
+***
+
+La planificación temporal **facilita que todas las actividades del proyecto sean ejecuradas a tiempo**, aumentando las probabilidades de éxito del proyecto.
+
+Una mala planificación temporal puede dar lugar a retrasos en los entregables, incumplimiento de objetivos, sobrecostes, estrés, etc.
+
+La guía del PMBOK identifica procesos necesarios para una **correcta y completa planificación temporal de proyectos**, pertenecientes al área de conocimiento **Gestión del cronograma del Proyecto** (algunos también pertenecen a **Gestión de los Recursos del Proyecto**).
+
+### Gestión del Cronograma del Proyecto
+
+***
+
+![](../attachments/Clipboard_2021-01-07-11-07-52.png)
+
+![](../attachments/Clipboard_2021-01-07-11-08-16.png)
+
+**Planificar la Gestión del Cronograma**: Proceso de establecer políticas, procedimientos y documentación para planificar, desarrollar, gestionar, ejecutar y controlar el cronograma del proyecto.
+
+**Definir las Actividades**: Proceso de identificar y documentar las acciones específicas que se deben realizar para elaborar los entregables del proyecto.
+
+**Secuenciar las Actividades**: Proceso de identificar y documentar las relaciones entre las actividades del proyecto.
+
+**Estimar la Duración de las Actividades**: Estimar la cantidad de periodos de trabajo necesarios para finalizar las actividades individuales con los recursos estimados.
+
+**Desarrollar el Cronograma**: Analizar secuencias de actividades, duraciones, requisitos de recursos para crear el cronograma del proyecto para su ejecución, monitoreo y control.
+
+#### Cronograma del proyecto
+
+El **cronograma del proyecto** proporciona un **plan detallado** que representa el modo y el momento en que el proyecto entregará los productos, servicios y otros resultados definidos en el enunciado del alcance.
+
+El cronograma presenta las **actividades e hitos** del proyecto:
+
+- Para cada actividad: **duración estimada, fecha de inicio planificada, fecha de finalización planificada y recursos asignados**.
+- Para cada hito: su **fecha planificada**.
+- **Relaciones lógicas y dependencias entre actividades**.
+
+Utilidades:
+
+- Establece la **planificación temporal**.
+- Base para controlar el **desempeño del proyecto**.
+- Herramienta de **comunicación**.
+- Gestionar las **expectativas de los interesados**.
+
+Se suele representar de forma gráfica usando **diagramas de Gantt** o **diagramas lógicos de barras**:
+
+![](../attachments/Clipboard_2021-01-07-11-28-53.png)
+
+#### 1. Definir las actividades
+
+Se deben descomponer los **paquetes de trabajo identificados en las EDT/WBS en actividades del proyecto**.
+
+De cada actividad debe ser posible estimar su **esfuerzo, duración y coste**.
+
+Estas actividades compondrán el cronograma y proporcionarán una base para la programación, estimación, ejecución, monitoreo y control de trabajo del proyecto.
+
+Para **cada actividad** se debe definir: Identificador único, nobre, paquete de trabajo al que pertenece, descripción general, restricciones y otra info.
+
+#### 2. Definir la lista de hitos
+
+Un **hito** es un **punto o evento significativo** dentro del proyecto.
+
+A diferencia de las actividades, **los hitos no consumen esfuerzo, tiempo ni recursos** del proyecto. **Tienen una duración nula**, ya que representan un punto o evento significativo.
+
+La **lista de hitos** de un proyecto identifica todos los hitos del proyecto e indicada si son obligatorios u opcionales.
+
+#### 3. Secuenciar las actividades
+
+Consiste en definir la **secuencia lógica de trabajo para obtener la máxima eficiencia** teniendo en cuenta todas las restricciones del proyecto.
+
+Cada actividad se debe conectar con al menos una **actividad predecesora y sucesora**.
+
+Las relaciones lógicas entre las actividades deberían dar lugar a un cronograma del proyecto realista y viable.
+
+Como resultado de la secuenciación de actividades se puede obtener un **diagrama de red del cronograma del proyecto.**
+
+![](../attachments/Clipboard_2021-01-07-11-45-22.png)
+
+#### 4. Estimar la duración de las actividades
+
+**Estimar los recursos de las actividades** es un proceso que consiste en estimar los recursos humanos y físicos necesarios para ejecutar el trabajo del proyecto.
+
+Este proceso pertenece al área **Gestión de los recursos del Proyecto**.
+
+La **estimación de la duración de las actividades** utiliza información acerca de las cantidades estimadas de recursos y sus calendarios de utilización.
+
+La estimación de recursos de las actividades debe realizarse antes de estimar su duración.
+
+Establece la **cantidad de tiempo necesario** para finalizar cada una de las actividades del proyecto con los recursos estimados.
+
+Requiere estimar previamente el **esfuerzo** requerido para completar las actividades así como sus refuerzos.
+
+En muchos casos la cantidad de recursos disponible pra llevar a cabo una actividad puede determinar su duración.
+
+También se pueden tener en cuenta diferentes **niveles de eficiencia** para los recursos (un programador junior no es igual de eficiente que uno senior).
+
+La relación entre la duración y los recursos asignados **no es lineal** (el rendimiento decrece).
+
+Existen métodos y métricas específicas pra estimar la duración de proyectos y tareas de desarrollo de **software**.
+
+Para cada actividad se debe obtener:
+- Recursos asignados
+- Duración estimada
+- Información sobre cómo se obtuvieron las estimaciones
+
+#### 5. Desarrollar y documentar el cronograma
+
+Consiste en crear y documentar un **modelo de programacion** con **fechas planificadas de inicio y finalización** para cada una de las **actividades del proyecto**, así como **fechas planificadas para los hitos**.
+
+Existen diferentes **técnicas**: Método de la ruta crítica, técnicas de optimización de recursos y técnicas de compresión del cronograma.
+
+Para tratarse de una representación completa el cronograma debe incluir:
+- **Identificador** de cada actividad e hito del proyecto
+- **Duración, fecha de inicio y fecha de finalización** de cada actividad
+- **Fecha planificada** de cada hito
+- **Relaciones y dependencias** entre actividades.
+- **Recursos asignados** (opcional)
+
+La representación del cronograma debe ir acompañada de una serie de **datos del cronograma** a fin de **describir el cronograma y facilitar su control**.
+
+Los datos deben incluir: Una lista completa de las actividades e hitos, atributos finales de las actividades y documentación de los supuestos y restricciones.
+
+![](../attachments/Clipboard_2021-01-09-17-36-36.png)
+
+![](../attachments/Clipboard_2021-01-09-17-36-58.png)
+
+### Diagramas de Red del Cronograma del Proyecto
+
+***
+
+Un **diagrama de red** es una **representación gráfica** de las relaciones lógicas, también denominadas **dependencias**, entre las actividades del cronograma.
+
+Se emplean para elaborar el cronograma del proyecto, así como para **analizarlo y mejorarlo**.
+
+Los diagrmas se pueden crear **una vez secuenciadas las actividades** del proyecto y pueden ser actualizados tras estimar las duraciones de estas actividades.
+
+Existen dos tipos principales de diagramas: **PDM** (Precedence Diagramming Method) y **ADM** (Arrow Diagramming Method).
+
+#### PDM
+
+Las actividades se representan mediante **nodos**, generalmente con aspecto de caja.
+
+Las dependencias son **flechas**, y existen cuatro tipos:
+
+- **Final a Inicio (FS)**: La actividad sucesora no puede comenzar hasta que haya concluido la predecesora
+- **Final a Final (FF)**: La actividad sucesora no puede finalizar hasta que haya concluido la actividad predecesora
+- **Inicio a Inicio (SS)**: La actividad sucesora no puede comenzar hasta que haya comenzado la actividad predecesora
+- **Inicio a Final (SF)**: La actividad sucesora no puede finalizar hasta que haya comenzado la actividad predecesora
+
+![](../attachments/Clipboard_2021-01-09-18-15-40.png)
+
+La relación FS es la más comúnmente utilizada, dos actividades pueden tener dos relaciones lógicas al mismo tiempo aunque se recomienda **emplear sólo una**. También se desaconseja el uso de circuitos cerrados.
+
+#### ADM
+
+Las **actividades** se representan mediante **flechas**.
+
+Las **dependencias/relaciones** se representan mediante **nodos circulares**.
+
+Todas las relaciones entre actividades son **FS**.
+
+También se puede hacer uso de actividades ficticias:
+
+![](../attachments/Clipboard_2021-01-09-19-36-48.png)
+
+**PDM es ventajoso frente a ADM** debido a que PDM no requiere actividades ficticias, permite incluir retrasos y adelantos, se pueden definir más tipos de relaciones y elabora diagramas de red con mayor información.
+
+#### Método de la Ruta Crítica (CPM)
+
+La **ruta crítica** es la secuencia de actividades **más larga**, la que determina la **menor duración posible** del proyecto.
+
+La red de un cronograma puede tener **varias rutas críticas**.
+
+EL método de la ruta crítica es una **técnica de análisis** del cronograma. que se utiliza para **estimar la mínima duración del proyecto y determinar el nivel de flexibilidad** de la programación de los diferentes cambios del cronograma.
+
+La holgura es el tiempo que se puede retrasar o extender una actividad sin que afecte a la fecha de finalización del proyecto.
+
+Se calcula como la **diferencia de tiempo entre lo más tarde que se puede finalizar y lo más pronto que se puede finalizar** (o viceversa con empezar).
+
+Una **actividad crítica** es aquella cuya **holgura es cero**, por tanto cualquier retraso en su ejecución retrasa el proyecto completo.
+
+Toda **actividad crítica** pertenece a una **ruta crítica**, aunque no todas las actividades de una ruta crítica tienen por qué serlo.
+
+Para calcular los caminos críticos, la mínima duración del proyecto y la holgura de las actividades **usando CPM y PDM** se hace lo siguiente:
+1. **Dibujar el diagrama de red** empleando PDM, incluyendo las **duraciones estimadas** de todas las actividades.
+2. **Paso hacia adelante (Forward Pass)**: se calculan los valores Early Start y Early Finish para cada actividad a fin de conocer la duración mínima del proyecto.
+3. **Paso hacia atrás (Backward Pass)**: Se calculan los valores LS y LF para cada actividad.
+4. **Cálculo de holguras y rutas críticas**.
+
+Una forma de dibujar el diagrama de red consiste en representar los nodos así:
+
+![](../attachments/Clipboard_2021-01-09-20-03-53.png)
+
+Tras aplicar los pasos anteriores acabaríamos con un diagrama de este estilo:
+
+![](../attachments/Clipboard_2021-01-09-20-07-26.png)
+
+Los valores obtenidos no constituyen necesariamente el cronograma del proyecto, sino que indican los periodos de tiempo dentro de los cuales de podrían llevar a cabo las actividades.
+
+### Gestión de los Recursos del Proyecto
+
+***
+
+El área de conocimiento de **Gestión de los Recursos del Proyecto** incluye los procesos para identificar, adquirir y gestionar los recursos necesarios para la conclusión exitosa del proyecto.
+
+Se abarca la gestión de dos tipos de recursos:
+
+- **Recursos humanos**: personal que compone el equipo del proyecto. El equipo consiste en **individuos con roles y responsabilidades** y que trabajan en conjunto. Su participación en la toma de decisiones y planificación es beneficioso. El director del proyecto debe ser capaz de **liderar y gestionar**, así como de velar por la **formación del equipo y su satisfacción y motivación**.
+
+- **Recursos físicos**: equipamiento, materiales, suministros e infraestructura. Su mala gestión puede dar lugar a **retrasos, deterioro de calidad o reducción de beneficios**.
+
+Los recursos se obtienen por medio de un **proceso de adquisición** (que se realiza en la etapa de ejecución).
+
+![](../attachments/Clipboard_2021-01-09-20-18-20.png)
+
+#### Planificar la Gestión de Recursos
+
+Da como resultado el **plan de gestión de recursos**, que es parte del plan para la dirección del proyecto y proporciona una guía sobre cómo se deberían **categorizar, asignar, gestionar y liberar los recursos del proyecto**.
+
+Documenta los **roles y responsabilidades de todos los recursos internos y externos a la organización**.
+
+Resulta útil para **desarrollar el cronograma y determinar el presupuesto**.
+
+También puede afectar a áreas como **riesgos y calidad**.
+
+El plan debe asegurar que **Todo paquete de trabajo de la EDT/WBS o actividad tenga un dueño inequívoco** y todo  miembro del equipo tenga algún tipo de responsabilidad.
+
+##### Matriz de asignación de responsabilidades (RAM)
+
+Es una matriz que ilustra las **relaciones entre los paquetes de trabajo o actividades y los recursos internos y externos** a la organización.
+
+Es útil para garantizar una asignación clara de **funciones y responsabilidades**.
+
+Evita confusiones sobre quién es el respondable o tiene autoridad sobre cada parte del trabajo.
+
+La **matriz RACI** define cuatro roles con diferente responsabilidad:
+- **Responsible - Encargado:** Persona o recurso que realmente realiza la actividad.
+- **Accountable - Responsable:** Persona o recurso responsable de que la actividad se lleve a cabo y deberá rendir cuentas.
+- **Consulted:** Persona o recurso al que see deba consultar por su información o capacidad necesarias.
+- **Informed:** Persona o recurso que debe ser informado sobre el avance, incidentes o resultados de la actividad.
+
+Un mismo recurso puede tener varios roles sobre la misma actividad (por ejemplo R/A).
+
+Toda actividad debe tener **un recurso con el rol R y únicamente un recurso con el rol A**.
+
+![](../attachments/Clipboard_2021-01-09-20-44-48.png)
+
+La **matriz RASCI** añade el rol de **Support** asignado a todo recurso que seba estar a disposición de los recursos con rol R.
+
+##### Estructura de desglose de la organización (OBS)
+
+Es una **representación jerárquica** de la organización del proyecto que ilustra la relación entre las actividades y los recursos.
+
+Se ordena según **unidades organizativas**, lo que permite a cada una **consultar todas sus responsabilidades** dentro del proyecto.
+
+Se representa en forma de **diagrama de árbol acompañado de una matriz de asignación de responsabilidades (RACI)**.
+
+![](../attachments/Clipboard_2021-01-09-20-50-45.png)
+
+##### Estructura de desglose de recursos
+
+Es una **representación jerárquica** de los recursos del proyecto **organizados por categoría y tipo**.
+
+**Categorías**: Recursos humanos, equipamiento, materiales, suministros, infraestructura, etc.
+
+**Tipos**: Pueden incluir cualquier info. relevante, como nivel de habilidad, nivel de formación, etc.
+
+![](../attachments/Clipboard_2021-01-09-20-53-39.png)
 
 

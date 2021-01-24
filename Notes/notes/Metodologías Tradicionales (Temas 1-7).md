@@ -1,5 +1,11 @@
+---
+attachments: [Clipboard_2021-01-11-21-11-29.png, Clipboard_2021-01-11-21-13-44.png, Clipboard_2021-01-11-21-14-00.png, Clipboard_2021-01-11-21-15-07.png, Clipboard_2021-01-13-11-36-51.png, Clipboard_2021-01-13-12-18-38.png, Clipboard_2021-01-13-12-19-43.png, Clipboard_2021-01-13-18-07-06.png, Clipboard_2021-01-13-18-08-04.png, Clipboard_2021-01-13-19-03-52.png, Clipboard_2021-01-13-19-04-36.png, Clipboard_2021-01-13-19-24-46.png, Clipboard_2021-01-13-19-25-17.png, Clipboard_2021-01-13-19-26-51.png, Clipboard_2021-01-15-12-18-54.png, Clipboard_2021-01-15-12-19-10.png, Clipboard_2021-01-15-12-47-40.png, Clipboard_2021-01-15-12-48-18.png, Clipboard_2021-01-15-13-09-21.png, Clipboard_2021-01-15-13-10-32.png, Clipboard_2021-01-15-13-15-16.png, Clipboard_2021-01-15-13-15-30.png, Clipboard_2021-01-15-13-29-32.png, Clipboard_2021-01-15-17-04-06.png, Clipboard_2021-01-15-17-09-14.png, Clipboard_2021-01-15-17-12-57.png, Clipboard_2021-01-15-17-19-30.png, Clipboard_2021-01-15-17-20-56.png, Clipboard_2021-01-15-18-02-25.png, Clipboard_2021-01-16-11-52-33.png, Clipboard_2021-01-16-11-52-48.png, Clipboard_2021-01-16-12-18-58.png, Clipboard_2021-01-16-12-37-35.png, Clipboard_2021-01-16-12-41-04.png, Clipboard_2021-01-16-12-43-04.png]
+title: Metodologías Tradicionales (Temas 1-7)
+created: '2021-01-09T19:53:52.942Z'
+modified: '2021-01-21T17:08:02.742Z'
+---
 
-# Metodologías Tradicionales
+# Metodologías Tradicionales (Temas 1-7)
 
 ## Tema 1
 
@@ -86,10 +92,12 @@ Todo proyecto puede configurarse dentro de un **ciclo de vida genérico** compue
   - Elaborar el acta de constitución del proyecto
   - Identificar a los interesados
   - Analizar viabilidad del proyecto
+
 - **Planificación:**
   - Elaborar el plan para la dirección del proyecto
   - Definir alcance, cronograma y presupuesto.
   - Planificar la gestión de riesgos
+  
 - **Ejecución:**
   - Dirigir, gestionar y monitorear el trabajo del proyecto
   - Adquirir recursos
@@ -894,5 +902,676 @@ Es una **representación jerárquica** de los recursos del proyecto **organizado
 **Tipos**: Pueden incluir cualquier info. relevante, como nivel de habilidad, nivel de formación, etc.
 
 ![](../attachments/Clipboard_2021-01-09-20-53-39.png)
+
+
+## Tema 5
+
+### Estimación de Esfuerzo, Tiempo y Coste en Proyectos de Software
+
+***
+
+Una **estimación** es una **predicción** para la cual se considera que existe una probabilidad superior a cero de que sea cierta.
+
+Las **estimaciones** son fundamentales para el **éxito de cualquier proyecto**.
+
+Durante la **planificación**, estimar permite tener una guía para la **toma de decisiones** (asignación de recursos, planificación temporal, elaboración de presupuesto, etc.)
+
+Estimar sirve para: analizar la **viabilidad** del proyecto, establecer y acordar **objetivos**, acordar tiempo de ejecución y presupuestos y poder realizar **seguimiento**.
+
+Las estimaciones se vuelven **más precisas** conforme avanza el proyecto.
+
+Una buena estimación debe ser:
+
+- **Repetible**: Una estimación se debe poder realizar en diferentes momentos del ciclo de vida.
+
+- **Validada**: Las estimaciones deben ser revisadas por terceros en cuanto a su completitud, precisión y calidad.
+
+- **Documentada**: Deben documentarse suficientemente para que se puedan **interpretar correctamente los resultados** y puedan ser **comprendidas, repetidas y validadas**.
+
+- **Múltiples responsables**: Las estimaciones deben poder ser realizadas por varios integrantes del equipo.
+
+- **Emplea diferentes técnicas**: Se pueden contrastar resultados y puede hacer uso de **datos históricos**.
+
+- **Planificada**: Las estimaciones forman parte de las tareas del proyecto y **deben ser tratadas como una actividad más**. Se deben completar **recursos planificados**.
+
+Si ya de por sí es difícil estimar en el software (personas-mes, calidad del software, etc.) con frecuencia se debe  estimar **con poca información del proyecto y sin datos históricos**.
+
+Se pueden aplicar factores de ajuste para completar aspectos no tenidos en cuenta en el cálculo de las estimaciones: tareas de gestión, reuniones, hábitos de trabajo.
+
+Existen muchas **técnicas de estimación**, que se pueden aplicar a un proyecto completo, a parte del mismo y se pueden combinar entre sí (Algunas necesitan combinarse con técnicas diferentes sí o también).
+
+#### Estimación ascendente
+
+Se estima la **duración, coste o esfuerzo** de cualquier proyecto o componente como la suma de las estimaciones de sus componentes de nivel inferior.
+
+Se utiliza frecuentemente durante la planificación para estimar la **duración total** a partir del cronograma y el **presupuesto** a partir del coste de las actividades o paquetes de trabajo.
+
+#### Estimación descendente
+
+Es inversa e idéntica a la estimación ascendente.
+
+Se puede utilizar en proyectos con duración/presupuesto fijos para repartir o para estimar componentes inferiores a uno que haya sido estimado mediante otra técnica.
+
+La estimación ascendente es **más precisa** que la desdendente pero requiere más tiempo y esfuerzo.
+En ocasiones, se combinan ambas técnicas, usando por ejemplo la estimación ascendente para refinar la descendente después de hacerla.
+
+#### Estimación de tres valores
+
+Es una técnica utilizada para estimar a partir del cálculo de **tres valores: estimación pesimista, estimación más probable y estimación optimista**.
+
+Se emplea cuando existe **mucha incertidumbre** en la estimación (hay poca información).
+
+Permite **mejorar la exactitud de las estimaciones** de esfuerzo, duración o coste por **un único valor de una actividad**, así como definir un **rango aproximado para las mismas**.
+
+Permite obtener un **valor estimado (E)** y una **desviación típica (σ)** a partir de esos tres valores, cuya fórmula varía en función de la distribución de la probabilidad:
+- **Distribución Normal**: El valor más probable se sitúa en el centro y está a la misma distancia del pesimista que del optimista.
+![](../attachments/Clipboard_2021-01-11-21-11-29.png)
+
+- **Distribución Beta**: Distribución asimétrica donde el valor más probable está desplazado a uno de los extremos.
+![](../attachments/Clipboard_2021-01-11-21-14-00.png)
+
+- **Distribución triangular**: A los tres valores se les da el mismo peso.
+![](../attachments/Clipboard_2021-01-11-21-15-07.png)
+
+#### Juicio de expertos y método Delphi
+
+Ambos se basan en expertos con formación/experiencia en un área de conocimiento concreto para pedirles opinión. El método Delphi permita realizar predicciones cuantitativas mediante un proceso iterativo y sistemático.
+
+#### Estimación por analogía
+
+Permite estimar utilizando **datos históricos** de actividades o proyectos **similares**.
+
+Es menos costosa que otras técnicas, pero es menos precisa.
+
+#### Estimación Paramétrica
+
+Técnicas de estimación en las que se utilizan **modelos basados en ecuaciones o algoritmos** para estimar en base a **datos históricos y diferentes variables**.
+
+En proyectos de software estas técnicas se usan para **estimar el esfuerzo** en función de variables tales como el tamaño del software, el tipo de aplicación y las características del equipo de desarrollo.
+
+### Técnicas de Estimación Paramétrica para Proyectos de Software
+
+***
+
+Para estimar el tamaño del software, se pueden emplear **medidas técnicas o medidas funcionales**.
+
+#### Medidas técnicas
+
+Son medidas de **aspectos técnicos del software** como la **cantidad de líneas de código**, el número de ficheros fuente o la cantidad de páginas de documentación generadas.
+
+Deben ser realizadas **a posteriori**, una vez el software ya ha sido implementado. Por tanto, los resultados son **exactos y no sujetos a interpretación**.
+
+#### Medidas funcionales
+
+Son medidas **enfocadas a contabilizar componentes funcionales** del software, como las entradas y salidas de datos o el número de entidades.
+
+Emplean **elementos del negocio entendibles por los usuarios finales del sistema**.
+
+Se pueden realizar **a priori**, por tanto son **independientes de la implementación** y la tecnología.
+
+|Medidas Técnicas|Medidas Funcionales|
+|---|---|
+|**Exacto y objetivo**|Los resultados pueden cambiar en función de quién la realice|
+|Se pueden realizar de **manera automática**|Deben ser realizadas por especialistas y requieren más esfuerzo|
+|**NO** depende de la documentación|Depende de la documentación|
+|Deben ser estimadas durante la planificación|Se pueden realizar **desde etapas muy tempranas del desarrollo**|
+|Son inservibles para actividades no asociadas con aspectos técnicos|**Sirven para "cualquier" actividad**|
+|Aunque sea exacto, su definición puede ser imprecisa|La medida **NO tiene ambigüedad** (aunque los resultados son subjetivos)|
+|Sólo pueden ser entendidas por personas con conocimientos de software|Al emplear elementos del dominio del negocio **pueden ser entendidas por los usuarios finales**|
+|Dependencia del entorno tecnológico, metodológico y humano|**Independientes del entorno**, permiten comparar al margen de su implementación|
+
+#### Métodos empíricos de estimación de software
+
+Son modelos que permiten estimar empleando **ecuaciones** obtenidas mediante **técnicas de regresión** a través de **datos históricos de proyectos ya finalizados**.
+
+La mayoría estima el Esfuerzo **definiendo a, b y c** en la siguiente ecuación:
+
+![](../attachments/Clipboard_2021-01-13-11-36-51.png)
+
+Estos tres valores se calibran a partir de los datos históricos.
+
+##### - COCOMO I
+
+(Luego se explica)
+
+##### - Modelo de Putnam
+
+Es un modelo **empírico** que permite estimar el **esfuerzo o tiempo** necesario para completar un software de un determinado tamaño.
+
+Se basa en que el esfuerzo de desarrollo realizado a lo largo del proyecto sigue la **distribución de Rayleigh**.
+
+![](../attachments/Clipboard_2021-01-13-12-18-38.png)
+
+Muchos otros modelos se basan en LOC (como COCOMO I) y hacen uso de la siguiente ecuación no lineal:
+
+![](../attachments/Clipboard_2021-01-13-12-19-43.png)
+
+#### Métodos de medición en Puntos Función
+
+Son una medida del **tamaño** en base únicamente a sus **requisitos funcionales**.
+
+Aunque todos los métodos miden el tamaño funcional, cada método **define distintas métricas y reglas para ello**.
+
+El método a elegir puede considerarse en base a **diferentes factores**: Tipo de aplicación, tiempo y recursos disponibles o la necesidad de comparar el software con sistemas de terceros.
+
+Existen otros métodos, como los **Feature Points** (útil para tener en cuenta la **complejidad de sus algoritmos**), los **Puntos Objeto** (para medir en función de **objetivos de negocio**) o **Puntos Casos de Uso** (usando los actores y factores de ajuste en los mismos).
+
+
+##### - IFPUG-FPA (Function Point Analysis)
+
+Fue el primer método de medición en puntos función y es **estándar de facto**.
+
+El resto de métodos parten de los conceptos de IFPUG-FPA.
+
+Consta de un total de **7 pasos**, aunque son 5 los que constituyen su parte **aprobada como estándar**.
+
+![](../attachments/Clipboard_2021-01-13-18-08-04.png)
+
+##### - SiFP (Simple Function Points)
+
+Pretende ser más **sencillo y rápido de aplicar**. Su principal objetivo es reducir el esfuerzo necesario para la estimación y medición del software.
+
+Los resultados de IFPUG-FPA y SiFP son compatibles, en gran parte sus resultados son iguales.
+
+Introduce el concepto de **capa** (muy útil para algunas arquitecturas), la cual tiene funcionalidades completas y significativas y sólo puede comunicarse con la se arriba y abajo.
+
+Una **MSA (Measurable Software Application)** es una agregación de componentes cuyo tamaño puede ser medido.
+Cada una pertenece a una sola capa, y debe tener unos **límites claros**.
+
+Un **BFC (Base Functional Component)** es una unidad indivisible de requisitos funcionales. Existen dos tipos:
+
+###### UGEP (Proceso Elemental Genérico No Especificado)
+
+Tiene fines de **procesamiento de datos**, el cual incluye todas las actividades automatizadas, obligatorias y opcionales necesarias para su consecución.
+
+Los procesos de **entrada de datos externos, salida de datos y consulta de datos** son UGEPs.
+
+###### UGDG (Grupo de Datos Genérico No Especificado)
+
+Tiene fines de **almacenamiento de datos**, refiriendo a un **conjunto de datos lógicos** de interés para el usuario.
+
+No se diferencia entre conjunto de datos interno y externo, sino a todo aquel de interés para el usuario.
+
+&NewLine;
+&NewLine;
+
+El proceso de medición de SiFP se compone de **6 pasos**:
+
+###### Paso 1: Reunir la documentación disponible
+
+A partir de la documentación, debería ser posible identificar las MSAs y BFCs.
+
+###### Paso 2: Identificar las MSAs involucradas
+
+Esta identificación de MSAs y sus límites se debe realizar desde el **punto de vista del usuario**.
+
+###### Paso 3: Determinar el alcance de la medición
+
+Cada MSA debe ser **medida por separado** y el resultado final de la medición debe ser calculado como la **suma de los puntos función** de cada una de ellas.
+
+###### Paso 4: Identificar los BFCs
+
+Por cada MSA hay que identificar los BFCs y elaborar una **lista de UGEPs y UGDGs**.
+
+Para hacerlo, cada uno debe aparecer una sola vez.
+Todo conjunto de datos usado por un UGEP debe ser considerado un UGDG.
+
+Se consideran iguales si dos UGEP sólo difieren en el formato de presentación o tecnología o si dos UGDG se refieren al mismo conjunto de datos.
+
+###### Paso 5: Calcular el tamaño funcional
+
+El tamaño funcional de una MSA se puede calcular:
+
+![](../attachments/Clipboard_2021-01-13-19-03-52.png)
+
+El tamaño de un software compuesto de N MSA se calcula:
+
+![](../attachments/Clipboard_2021-01-13-19-04-36.png)
+
+###### Paso 6: Documentar el resultado de la medición
+
+Se debe documentar el resultado final, el alcance, supuestos, lista, estándares empleados, fecha, personal implicado, etc.
+
+##### - COSMIC-FFP
+
+Es considerado el primero de **segunda generación** y es el 2o más utilizado en la industria.
+
+Está diseñado para medir **aplicaciones en tiempo real**
+
+En este método se obtiene el tamaño como un valor proporcional al número de **movimiento de datos**.
+
+Asume la división en **capas** del software, dividiendo las mismas en **componentes** que recogen **procesos funcionales**.
+
+El tamaño se obtiene como la suma de los **movimientos de datos** de sus procesos funcionales.
+
+##### - NESMA
+
+Se ajusta mejor a proyectos de **mejora y mantenimiento del software**. Diferencia entre **funcionalidades nuevas, modificadas y eliminadas**.
+
+Utiliza una unidad de medida diferente, llamada **puntos función de mejora**.
+
+También propone dos alternativas para hacer **estimaciones tempranas del software**.
+
+##### - MKII-FPA
+
+Adoptado por la United Kingdom Software Metrics Association.
+
+Utiliza una unidad diferente a los puntos función, aunque se han presentado **fórmulas de conversión**.
+
+##### - FiSMA
+
+Pretende medir **todo tipo de aplicaciones software**. Es un método orientado al servicio, en lugar de identificar los procesos funcionales, se identifican **los servicios que éste proporciona**.
+
+##### - SNAP
+
+Fue creado para complementar IFPUG-FPA, ya que permite medir el tamaño en base a requisitos **no funcionales**.
+
+Sus resultados se expresan en puntos SNAP y complementan a los puntos función de IFPUG-FPA.
+
+### COCOMO I & II
+
+***
+
+#### COCOMO I
+
+Es un modelo empírico que permite estimar en base a la **cantidad de líneas de código**.
+
+Asume que el proceso de desarrollo sigue un **modelo en cascada clásico** y **lenguajes de programación imperativos** (C, Pascal, etc.).
+
+Define tres **modelos** diferentes en función de la **precisión** deseada en las estimaciones:
+
+- **Básico**: Sólo se basa en el tamaño en líneas de código.
+
+- **Intermedio**: Añade atributos para características del software, hardware, equipo de desarrollo o proyecto.
+
+- **Detallado**: Similar al intermedio, pero cambian los atributos para cada fase del ciclo de desarrollo.
+
+Además define tres **modos** en función de la experiencia del equipo: **orgánico** (desarrollo sencillo, equipo con amplia experiencia), **semi-acoplado** (poca o nula exp.) y **empotrado** (desarrollo complejo, exp. limitada o nula).
+
+Fórmula para calcular el **esfuerzo**:
+
+![](../attachments/Clipboard_2021-01-13-19-24-46.png)
+
+Fórmula para calcular el **Tiempo mínimo de desarrollo**:
+
+![](../attachments/Clipboard_2021-01-13-19-25-17.png)
+
+Se pueden calcular los **recursos** necesarios con la relación **E/Td**
+
+La duración del proyecto se estima así:
+
+![](../attachments/Clipboard_2021-01-13-19-26-51.png)
+
+Los **15 atributos** del factor de ajuste **m(X)** toman valores entre **Muy Bajo-Extra Alto**, lo que les da un valor numérico según una tabla.
+
+3 dependen del **software**, 4 del **hardware**, 5 del **equipo de desarrollo** y 3 del **proyecto**.
+
+Tras estimar el software usando COCOMO I se pueden estimar sus **actividades** usando la técnica de **estimación descendiente**.
+
+Sin embargo, COCOMO I tiene **limitaciones**:
+
+- Se debe utilizar un **modelo en cascada clásico y lenguaje imperativo**.
+- Requiere estimar con precisión las LOC antes de desarrollar el software.
+- Sólo considera las fases de **diseño, implementación y pruebas**, considerando **requisitos inalterables**.
+- Para calibrar COCOMO I se necesita una gran cantidad de **datos históricos**.
+
+#### COCOMO II
+
+Es el modelo sucesor a COCOMO I, y se actualizó para adaptarse mejor a las **nuevas prácticas de desarrollo**.
+
+Define **tres modelos diferentes** utilizados en etapas diferentes del ciclo de vida:
+
+- **Modelo de composición de la aplicación**: Se utiliza para estimar el esfuerzo de desarrollo de **prototipos**. El tamaño se mide en **puntos objeto**.
+
+- **Modelo de diseño temprano**: Se utiliza **una vez definidos los requisitos**. Requiere calcular el tamaño como puntos función mediante IFPUG-FPA y luego traducirlos a LOC.
+
+- **Modelo de post-arquitectura**: Se utiliza **a partir del momento en el que se empieza la implementación** (se conoce la arquitectura). También requiere traducir mediante IFPUG-FPA, pero diferencia líneas de código **nuevas, modificadas y reutilizadas**. Estima b mediante **factores de escala** y utiliza 17 atributos para precisar el valor de ajuste.
+
+
+## Tema 6
+
+### Gestión de riesgos
+
+***
+
+Un **riesgo individual del proyecto** es un **evento o condición incierta** que afecta por lo menos a uno de los objetivos.
+
+Pueden tener una o más **causas** y un efecto **tanto positivo como negativo**.
+Si sucede, puede tener uno o más **impactos**.
+
+Para que algo sea considerado un riesgo es necesario **poder gestionarlo**.
+
+La organización puede lidiar con el riesgo según su **actitud frente al riesgo**. Está determinada por:
+- Apetito por el riesgo
+- Tolerancia al riesgo
+- Umbral de riesgo
+
+El **riesgo general del proyecto** es el efecto de la **incertidumbre sobre el proyecto** en su conjunto, incluyendo todos los riesgos individuales. Puede ser **positivo o negativo**.
+
+El area de conocimiento **Gestión de Riesgos** incluye los procesos de **planificación de la gestión, identificación, análisis, planificación e implementación de respuesta y monitoreo de los riesgos** de un proyecto.
+
+![](../attachments/Clipboard_2021-01-15-12-18-54.png)
+
+![](../attachments/Clipboard_2021-01-15-12-19-10.png)
+
+### Planificar la Gestión de los Riesgos
+
+***
+
+La planificación de la gestión de riesgos debe completarse en las **fases tempranas** de la planificación del proyecto.
+
+En ella se definen aspectos relacionados con la gestión de riesgos:
+
+- **Estrategia** de riesgos
+- **Metodología**
+- **Roles y responsabilidades**
+- **Financiamiento**
+- **Calendario/periodicidad**
+- **Categorías de Riesgo** (EDR/RBS)
+- Definiciones de **probabilidades e impactos**
+- **Matriz de probabilidad e impacto**
+- **Tolerancias** o apetitos al riesgo
+- Formatos de informe de riesgos: **Registro de riesgos**
+- **Seguimiento**
+
+#### EDR/RBS
+
+Es propia de cada proyecto, recoge las categorías de riesgos del proyecto, sirve de entrada al proceso de identificación de riesgos y **se debe revisar** a lo largo del proyecto.
+
+![](../attachments/Clipboard_2021-01-15-12-47-40.png)
+
+#### Definición de probabilidades e impactos
+
+![](../attachments/Clipboard_2021-01-15-12-48-18.png)
+
+### Identificar los riesgos
+
+***
+
+Explorar las posibles **causas o fuentes de riesgo** facilita la identificación (se puede hacer uso del **EDR/RBS**).
+
+A partir de las **causas** se pueden detectar uno o más eventos de riesgo y sus respectivsos efectos en el proyecto.
+
+Existen varios **tipos de riesgos**:
+- Relacionados con la planificación
+- Asociados con las tecnologías
+- De contexto organizativo
+- De recursos humanos
+- De contexto externo
+
+![](../attachments/Clipboard_2021-01-15-13-10-32.png)
+
+Varias de las técnicas para identificar riesgos son:
+- Juicio de expertos, tormentas de ideas y reuniones
+- **Listas de verificación** (Info histórica y conocimiento acumulado)
+- Análisis de causa raíz (ACR/RCA)
+- **Análisis de documentos**
+- **Análisis de supuestos y restricciones**
+- **Análisis FODA/SWOT**
+
+#### Análisis FODA/SWOT
+
+Este análisis comprende:
+
+- Creación del grupo de análisis con diferentes perfiles
+- **Análisis interno**: Identificación de fortalezas y debilidades de la organización
+- **Análisis externo**: Identificación de amenazas y oportunidades
+- Evaluación en consecuencia de las posibilidades de actuar frente a estos riesgos
+
+![](../attachments/Clipboard_2021-01-15-13-15-16.png)
+
+![](../attachments/Clipboard_2021-01-15-13-15-30.png)
+
+### Análisis Cualitativo de Riesgos
+
+***
+
+Su objetivo es mejorar el desempeño centrándose en los **riesgos de alta prioridad**.
+
+En este análisis se evalúa de forma **subjetiva** la prioridad de los riesgos usando la **probabilidad, el impacto** sobre los objetivos y otros factores como el plazo de respuesta y la tolerancia al riesgo.
+
+La **matriz de probabilidad e impacto** es una técnica para vincular la **probabilidad de ocurrencia** con su impacto.
+
+Permite priorizar los riesgos con vistas a un análisis posterior.
+
+Se puede emplear una matriz para todos los riesgos del proyecto o utilizar una diferente para cada restricción del proyecto.
+
+![](../attachments/Clipboard_2021-01-15-13-29-32.png)
+
+### Análisis Cuantitativo de Riesgos
+
+***
+
+Cuantifica la **exposición al riesgo** del proyecto en general.
+
+Proporciona información cuantitativa adicional sobre los **riesgos** para planificar sus respuestas.
+
+Requiere **analizar numéricamente** el efecto combinado de los **riesgos individuales** del proyecto.
+
+Se considera el único método confiable para evaluar el riesgo general.
+
+Es apropiado para proyectos grandes o complejos, pero no es necesario para todos.
+
+Consume **tiempo y costes adicionales**.
+
+Requiere emplear un **software de riesgo especializado** y pericia en el desarrollo e interpretación de **modelos de riesgo**.
+
+Para cada riesgos se debe analizar:
+- **Impacto**
+- **Probabilidad de ocurrencia**
+- **Síntomas**
+- Posibles **alternativas**
+- **Tiempo y plazos**
+- **Interacción** con otras partes
+
+Un **modelo de riesgos** es una representación matemática que pone en relación las variables significativas de riesgo con el resto de variables del proyecto.
+
+Los riesgos individuales pueden ser distribuciones de probabilidad o **ramas probabilísticas**.
+
+#### Análisis de Monte Carlo
+
+Método que permite evaluar el empacto de los efectos combinados de los riesgos individuales mediante una **simulación matemática**, iterando varias miles de veces.
+
+Se eligen al azar para cada iteración la estimación de **costes**, la estimación de **duración y diagrama de red** y las ramas probabilísticas y se consigue un rango de posibles resultados del **Histograma** y la distribución de probabilidad acumulada (**Curva S**).
+
+![](../attachments/Clipboard_2021-01-15-17-04-06.png)
+
+#### Análisis de sensibilidad
+
+Determina qué riesgos tienen el impacto **con mayor potencial** sobre el proyecto.
+
+**Correlaciona** las variaciones en los **resultados del proyecto** con las variaciones en los **elementos del modelo** de análisis cuantitativa.
+
+Visualización mediante **diagramas de tornado**.
+
+![](../attachments/Clipboard_2021-01-15-17-09-14.png)
+
+#### Análisis del Valor Montario Esperado
+
+Permite calcular el **resultado promedio** cuando se tienen en cuenta varios escenarios con incertidumbre.
+
+Se emplea junto con la técnica de **análisis mediante árbol de decisiones**, la cual permite **elegir el mejor curso de acción** para el proyecto.
+
+El valor de las oportunidades serán valores positivos mientras que el de las amenazas será negativo.
+
+![](../attachments/Clipboard_2021-01-15-17-12-57.png)
+
+#### Perfil de Riesgo
+
+La **exposición** a un riesgo mide el **efecto** del riesgo en un momento determinado teniendo en cuenta la **probabilidad de ocurrencia** en ese momento.
+
+![](../attachments/Clipboard_2021-01-15-17-19-30.png)
+
+Por tanto sólo deben gestionarse aquellos riesgos cuya exposición supera un **umbral mínimo**.
+
+La **exposición a lo largo del tiempo** genera para cada riesgo un **perfil**.
+
+![](../attachments/Clipboard_2021-01-15-17-20-56.png)
+
+### Planificar la Respuesta a los Riesgos
+
+***
+
+Aborda los riesgos en función de su **prioridad**, introduciendo recursos y actividades según se requiera.
+
+Las respuestas deben adaptarse a la importancia del riesgo, ser rentables y realistas, estar acordadas, tener un responsable y ser oportunas.
+
+Tras la aplicación de una estrategia, se deben identificar: **Riesgos secundarios** (Resultado de la implementación de la respuesta) y **riesgos residuales** (permanecen después de la implementación de una respuesta).
+
+Respuestas a amenazas:
+- **Escalar**: Fuera del alcance y se escala a nivel organizacional)
+- **Evitar**: Eliminar la amenaza
+- **Transferir**: Cambiar la titularidad de la amenaza
+- **Mitigar**: Se reconoce paro no se toman medidas proactivas
+
+Respuestas a oportunidades:
+- **Escalar**
+- **Explotar**: Aumentar la probabilidad de ocurrencia al 100%
+- **Compartir**: Transfiere la propiedad para que éste comparta beneficios
+- **Mejorar**: Aumentar la propabilidad y/o impacto
+- **Aceptar**
+
+Respuestas al riesgo general:
+- **Evitar**
+- **Explotar**
+- **Transferir/Compartir**
+- **Mitigar/mejorar**
+- **Aceptar**
+
+#### Planes de contingencia
+
+Los **planes de contingencia** son planes alternativos en caso de desencadenarse un evento determinado, el cualdebe definir claramente el evento desencadenante que lo pondrá en marcha.
+
+Permiten **definir respuestas a los riesgos**.
+
+Las **reservas de contingencia** es presupuesto o plazo destinado al **tratamiento proactivo** de los riesgos identificados.
+
+Las **reservas de gestión** es presupuesto o plazo destinado al **trabajo imprevisto** que está dentro del alcance del proyecto.
+
+#### Registro de riesgos
+
+El **registro de riesgos** incluye la lista de riesgos identificados y la lista de respuestas potenciales a los mismos.
+
+Para cada riesgo se incluyen varias informaciones (algunas en la foto):
+
+![](../attachments/Clipboard_2021-01-15-18-02-25.png)
+
+## Tema 7
+
+### Gestión de Costes
+
+***
+
+El coste es la suma de recursos usados para producir bienes o servicios.
+
+Los costes dependen de:
+- El **alcance** y **calidad** del proyecto
+- La **duración/cronograma** del proyecto
+- Los **riesgos** y el **plan de reservas**
+- La **estimación** de recursos
+
+Según el **tipo de recurso** existen varios tipos de costes:
+- **Costes físicos**: Directamente relacionados con la adquisición de productos/servicios. Ej: **Costes de hardware**.
+-  **Costes de RRHH**: Relacionados con los empleados del proyecto. Ej: **Costes de personal**.
+- **Costes de propiedad intelectual**: Ej: **Costes de software**.
+- **Costes financieros**: Créditos, préstamos, bonos, etc.
+- **Otros costes**: Subcontratación.
+
+Según la **imputabilidad**:
+- **Costes directos**: Relacionados de forma directa al producto o servicio.
+- **Costes indirectos**: No es posible establecer una relación cuantificable entre los recursos utilizados y lo que se ha obtenido. Se relacionan con la organización.
+
+Según la **relación con la salida**:
+- **Costes variables**: Crecen o disminuyen en función de la producción o tiempo dedicado.
+- **Costes fijos**: El coste no varía por dedicación, tiempo o esfuerzo aplicado.
+
+Otros tipos de coste son:
+- **Costes marginales**: Adicionales por realizar una actividad suplementaria
+- **Coste de oportunidad**: Coste ficticio asociado a una oportunidad no aprovechada
+- **Coste hundido o enterrado**: Coste en el que ya se ha incurrido, independientemente de si se realiza o no el proyecto.
+- **Coste oculto** Coste no presupuestado inicialmente.
+
+#### Gestión de Costes del Proyecto
+
+La Gestión de los Costes del Proyecto se ocupa principalmente del **coste de los recursos** necesarios para completar las **actividades del proyecto**:
+
+- Realiza una **estimación de los recursos** necesarios para completar el proyecto.
+- Identifica diferentes **alternativas de coste**.
+- Busca **alternativas más económicas** para realizar el trabajo.
+
+El área de conocimiento **Gestión de Costes** incluye los procesos de planificación estimación, cálculo del presupuesto, financiación, gestión y control de costes.
+
+![](../attachments/Clipboard_2021-01-16-11-52-33.png)
+
+![](../attachments/Clipboard_2021-01-16-11-52-48.png)
+
+#### Planificar la Gestión de Costes
+
+Decidir la forma de **financiamiento** (Auto-financiación, por acciones o mediante deuda), **adquisición de recursos** (Construcción, compra, alquiler o renting) y **técnicas de estimación** a usar.
+
+El plan de gestión de costes puede establecer:
+- Unidades de medida
+- **Nivel de precisión** (redondeo)
+- **Nivel de exactitud** (rango aceptable)
+- Enlaces con los otros procedimientos de la organización
+- **Umbrales de control**
+- **Reglas para la medición del desempeño**
+- **Formatos de los informes**
+- **Detalles adicionales**
+
+#### Estimación de los Costes
+
+Es el proceso que implica la **evaluación cuantitativa** de los costes de los recursos para **completar las actividades del proyecto**.
+
+Implica una **predicción**, con la consideración de diversas **alternativas de cómputo**.
+
+En proyectos software, la estimación de los costes se suele dividir en tres fases:
+- **Estimación del Tamaño**
+- **Estimación del Esfuerzo, duración y recursos**
+- **Cálculo de costes**
+
+Para estimar el coste de personal basado en el esfuerzo de cada actividad, se definen varias **Categorías laborales** para llevar a cabo la actividad.
+
+Después, se establece el **Salario** para cada categoría, y calculando el coste de cada categoría como el sumatorio de todos sus salarios por el esfuerzo estimado a realizar por cada uno. Otra alternativa es calcular como el sumatorio del salario por la duración y los recursos (lo que gana un puesto al mes por el número de meses y por la cantidad de personas contratadas en el puesto).
+
+A la duración y coste estimados de un proyecto se les llama **duración y coste nominal**.
+
+A partir de un número de personas asignadas la duración del proyecto dejará de disminuir. Dicha duración se conoce como **Duración Límite** y su coste asociado **Coste Límite**.
+
+![](../attachments/Clipboard_2021-01-16-12-18-58.png)
+
+#### Determinación del Presupuesto
+
+**Determinar el presupuesto** consiste en **sumar los costes estimados** de actividades individuales o paquetes de trabajo para **establecer una línea base de coste (LBC) autorizada**.
+
+El presupuesto permite determinar el **precio final del proyecto**.
+
+El presupuesto incluye principalmente **Costes Físicos, de RRHH y de Propiedad Intelectual**, así como las **reservas del proyecto**. También puede incluir un **margen de beneficio**.
+
+Las **reservas de contingencias** forman parte de la LBC pero las **reservas de gestión** están fuera.
+
+Habitualmente las empresas tienen pre-fijados unos costes indirectos. Pueden **asignarse proporcionalmente**, lo que implica que cada actor tendrá un coste indirecto proporcional a sus costes directos. La **clasificación de costes fijos** supone la asignación de costes indirectos a cada actor en función del uso del recurso o servicio asociado.
+
+#### Línea Base de Costes (LBC)
+
+Se puede representar por fases temporales como una curva S.
+
+Los gastos pueden superar la **Base acumulada de costes (BAC)**, dado que esta no considera las reservas de gestión.
+
+Los **requisitos de financiamiento** totales y periódicos se derivan de la LBC.
+
+A menudo, el financiamiento tiene lugar en **cantidades incrementales** que pueden no estar distribuidas de manera homogénea.
+
+![](../attachments/Clipboard_2021-01-16-12-37-35.png)
+
+El beneficio se ajusta en función de oportunidad de mercado, incertidumbre de las estimaciones, términos contractuales, estado financiero de la empresa, entre otros. A menudo se suele calcular como un porcentaje del coste total (ROI).
+
+**Desglose del presupuesto**:
+
+![](../attachments/Clipboard_2021-01-16-12-41-04.png)
+
+En este caso, los costes indirectos se incluyen en el valor de cada actividad, pero pueden aplicarse por proyecto, departamento o paquete de trabajo.
+
+![](../attachments/Clipboard_2021-01-16-12-43-04.png)
 
 
